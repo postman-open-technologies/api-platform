@@ -1,0 +1,24 @@
+title: API Platform
+description:  framework to define the API lifecycle in a modular and flexible way so that anyone can define their own version of the API lifecycle using a common set of elements actions being applied across standard definition of API operations.
+
+image: https://postman-toolboxes2.s3.amazonaws.com/assets/api.png
+url: https://apis.how
+email: kin@postman.com
+
+github_user: postman-open-technologies
+github_repo: api-platform
+github_branch: main
+
+version:      1.1.1
+markdown:     kramdown
+
+collections:
+  services:    
+    permalink: /services/:path/  
+    output: true    
+
+defaults:
+  - scope:
+      type: services
+    values:
+      layout: services                  
